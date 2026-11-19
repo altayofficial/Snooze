@@ -1,5 +1,5 @@
 {
-    "name": "pocketmine/snooze",
+    "name": "altayofficial/snooze",
     "description": "Thread notification management library for code using the pthreads extension",
     "type": "library",
     "require": {
@@ -12,6 +12,9 @@
         "phpstan/phpstan-strict-rules": "^2.0"
     },
     "license": "LGPL-3.0",
+    "replace": {
+        "pocketmine/snooze": "self.version"
+    },
     "autoload": {
         "psr-4": {
             "pocketmine\\snooze\\": "src/"
